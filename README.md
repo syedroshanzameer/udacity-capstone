@@ -102,21 +102,22 @@ Best Model Screenshot:
 ![](screnshots/hyper-bestModel.png)
 
 Run Details Screenshot:
-![](screnshots/hyper-runDetails.png)
+![](/screnshots/hyper-runDetails.png)
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 Since the HyperDrive experiment gave me best metrics i.e Accuracy of 92%, I went ahead and deployed this model. 
 
 Deployed Service Screenshot:
-![](screnshots/hyper-endpoint1.png)
+![](/screnshots/hyper-endpoint1.png)
 
 Sample input that I provided for the endpoint to get the response:
-![](screnshots/hyper-endpoint.png)
+![](/screnshots/hyper-endpoint.png)
 The endpoint needs to receive the sample in the form of JSON, I have displayed the code and sample in the above screenshot for clarity.
 
 ## Screen Recording
 Link: https://youtu.be/sNhuO7utmf0 
+
 The sample request to the endpoint is shown at the end of the video.
 
  Remember that the screencast should demonstrate:
