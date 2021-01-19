@@ -58,7 +58,8 @@ automl_settings = {"primary_metric":"accuracy", "experiment_timeout_minutes":30,
 ### Results
 
 1. The best performing Algorithm was "VotingEnsemble" with an accuracy of 87.48%
-![](screnshots/automl-bestModel.png)
+![](screenshots/automl-bestModel.png)
+
 
 2. Some of the other parameters as shown in the screenshot are the following:
 * precision_score_micro 0.8748348348348348
@@ -67,10 +68,10 @@ automl_settings = {"primary_metric":"accuracy", "experiment_timeout_minutes":30,
 * AUC_micro 0.9212086031977925
 
 3. Run Details 
-![](screnshots/automl-runDetails.png)
+![](screenshots/automl-runDetails.png)
 
 4. The list of the Algorithms that ran are shown in the below screenshot
-![](screnshots/automl-models.png)
+![](screenshots/automl-models.png)
 
 5. I can still improve the model performance by increasing the runs, capturing more data, including more features.
 
@@ -99,20 +100,20 @@ RandomParameterSampling({'C': choice(0.01, 0.1, 1, 10, 100),
 I can even change the method of sampling used for the execution to run faster or slower and find good accurate results.
 
 Best Model Screenshot:
-![](screnshots/hyper-bestModel.png)
+![](screenshots/hyper-bestModel.png)
 
 Run Details Screenshot:
-![](/screnshots/hyper-runDetails.png)
+![](/screenshots/hyper-runDetails.png)
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 Since the HyperDrive experiment gave me best metrics i.e Accuracy of 92%, I went ahead and deployed this model. 
 
 Deployed Service Screenshot:
-![](/screnshots/hyper-endpoint1.png)
+![](/screenshots/hyper-endpoint1.png)
 
 Sample input that I provided for the endpoint to get the response:
-![](/screnshots/hyper-endpoint.png)
+![](/screenshots/hyper-endpoint.png)
 The endpoint needs to receive the sample in the form of JSON, I have displayed the code and sample in the above screenshot for clarity.
 
 ## Screen Recording
