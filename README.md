@@ -61,10 +61,10 @@ automl_settings = {"primary_metric":"accuracy", "experiment_timeout_minutes":30,
 ![](screnshots/automl-bestModel.png)
 
 2. Some of the other parameters as shown in the screenshot are the following:
-precision_score_micro 0.8748348348348348
-recall_score_macro 0.8428914238803412
-norm_macro_recall 0.6857828477606823
-AUC_micro 0.9212086031977925
+* precision_score_micro 0.8748348348348348
+* recall_score_macro 0.8428914238803412
+* norm_macro_recall 0.6857828477606823
+* AUC_micro 0.9212086031977925
 
 3. Run Details 
 ![](screnshots/automl-runDetails.png)
