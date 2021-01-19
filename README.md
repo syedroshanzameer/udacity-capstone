@@ -46,10 +46,10 @@ I'm accessing the data from the direct link to the UCI repository in the noteboo
 1. I created a Compute Instance with specification "STANDARD_D3_V2" to run Jupyter Notebook in Azure.
 2. I have imported the dataset using TabularDataset library.
 3. The setting that I used for Auto-ML were 
-"experiment_timeout_minutes", 
-"enable_early_stopping", 
-"n_cross_validations", 
-"max_concurrent_iterations"
+* "experiment_timeout_minutes", 
+* "enable_early_stopping", 
+* "n_cross_validations", 
+* "max_concurrent_iterations"
 
 automl_settings = {"primary_metric":"accuracy", "experiment_timeout_minutes":30, "enable_early_stopping":True, "n_cross_validations":3,"max_concurrent_iterations": 4}
 
